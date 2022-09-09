@@ -1,10 +1,12 @@
 import {Button} from '@chakra-ui/react';
+import Navbar from '../components/navbar';
+import Hero from '../components/hero';
 
 function HomePage() {
   return (
     <>
-      <div>Welcome to Next.js!</div>
-      <Button colorScheme='blackAlpha'>WhiteAlpha</Button>
+      <Navbar />
+      <Hero />
     </>
   );
 }
