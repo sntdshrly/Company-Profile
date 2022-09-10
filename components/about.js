@@ -1,5 +1,5 @@
 import { Box, SimpleGrid, Heading, Button, Image, IconButton, Text, Stack, Flex, useBreakpointValue, useColorModeValue, createIcon, Icon } from "@chakra-ui/react";
-import { FcAssistant, FcStart } from 'react-icons/fc';
+import { FcGlobe, FcStart, FcLandscape, FcComboChart } from 'react-icons/fc';
 
 const Feature = ({ title, text, icon }) => {
   return (
@@ -21,17 +21,17 @@ export default function About() {
       </Text>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
         <Feature
-          icon={<Icon as={FcAssistant} w={10} h={10} />}
+          icon={<Icon as={FcGlobe} w={10} h={10} />}
           title={"Website Development"}
           text={"Website development is program that can be accessed and used via a web browser. Websites are created using HTML, Javascript, CSS, and other languages that are supported by various web browsers..."}
         />
         <Feature
-          icon={<Icon as={FcAssistant} w={10} h={10} />}
+          icon={<Icon as={FcLandscape} w={10} h={10} />}
           title={"UI/UX Design"}
           text={"UI/UX design is made with the aim of allowing users to explore and navigate any content on a website or application. Good design lead our website or application to be mastered easily by the user..."}
         />
         <Feature
-          icon={<Icon as={FcAssistant} w={10} h={10} />}
+          icon={<Icon as={FcComboChart} w={10} h={10} />}
           title={"Digital Marketing & SEO"}
           text={"Search Engine Optimization is used to optimize a website's technical configuration, content relevance and link popularity so its pages can become more relevant and popular towards user search queries..."}
         />
@@ -68,7 +68,7 @@ export default function About() {
               fontWeight={'normal'}
               px={6}
               leftIcon={<Icon as={FcStart} h={4} w={4} color={useColorModeValue('gray.600', 'gray.300')} />}>
-              How It Works?
+              HOW IT WORKS?
             </Button>
           </Stack>
         </Stack>
@@ -86,13 +86,7 @@ export default function About() {
             top={"50%"}
             transform={"translateX(-50%) translateY(-50%)"}
           />
-          <Image
-            fit={"cover"}
-            align={"center"}
-            w={"100%"}
-            h={"100%"}
-            src={"https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"}
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9QbYZh1YXY?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Box>
       </Flex>
       </Stack>

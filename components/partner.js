@@ -1,7 +1,7 @@
 import { Flex, SimpleGrid, Stat, StatLabel, StatNumber, Text, useColorModeValue, useBreakpointValue, Box, Image } from "@chakra-ui/react";
-import { BsPerson } from "react-icons/bs";
-import { FiServer } from "react-icons/fi";
-import { GoLocation } from "react-icons/go";
+import { HiOutlineUser } from "react-icons/hi";
+import { HiOutlineUserGroup } from "react-icons/hi";
+import { HiOutlineLocationMarker } from "react-icons/hi";
 import Flickity from "react-flickity-component";
 
 import "flickity/css/flickity.css";
@@ -21,7 +21,7 @@ export default function Partner() {
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={20} textAlign={"center"}>
         OUR PARTNERS
       </Text>
-      <Box bgColor={useColorModeValue('gray.100', 'gray.600')} py={10} px={40}>
+      <Box bgColor={useColorModeValue('gray.100', 'gray.600')} py={10} px={60}>
         <Flickity options={flickityOptions}>
           <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/eiger.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/erajaya.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
@@ -30,9 +30,9 @@ export default function Partner() {
         </Flickity>
       </Box>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }} my={20} mx={{ base: 80, lg: 40, md: 20, sm:40 }}>
-        <StatsCard title={"USERS"} stat={"5,000"} icon={<BsPerson size={"3em"} />} />
-        <StatsCard title={"SERVERS"} stat={"1,000"} icon={<FiServer size={"3em"} />} />
-        <StatsCard title={"DATACENTERS"} stat={"7"} icon={<GoLocation size={"3em"} />} />
+        <StatsCard title={"USERS"} stat={"5,000"} icon={<HiOutlineUser size={"3em"} />} />
+        <StatsCard title={"ORGANISATIONS"} stat={"1,000"} icon={<HiOutlineUserGroup size={"3em"} />} />
+        <StatsCard title={"COUNTRIES"} stat={"7"} icon={<HiOutlineLocationMarker size={"3em"} />} />
       </SimpleGrid>
       <Text color={useColorModeValue("gray.800", "white")} textAlign={"center"} mx={{ base: 80, lg: 40, md: 20, sm:40 }}>
       Only by working together with partners can we ride the digital wave.
