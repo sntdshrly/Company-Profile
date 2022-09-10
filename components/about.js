@@ -1,5 +1,5 @@
-import { Box, SimpleGrid, Heading, Button, Image, IconButton, Text, Stack, Flex, useBreakpointValue, useColorModeValue, createIcon } from "@chakra-ui/react";
-import { ChatIcon, CheckIcon, EmailIcon } from "@chakra-ui/icons";
+import { Box, SimpleGrid, Heading, Button, Image, IconButton, Text, Stack, Flex, useBreakpointValue, useColorModeValue, createIcon, Icon } from "@chakra-ui/react";
+import { FcAssistant, FcStart } from 'react-icons/fc';
 
 const Feature = ({ title, text, icon }) => {
   return (
@@ -21,17 +21,17 @@ export default function About() {
       </Text>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
         <Feature
-          icon={<ChatIcon w={10} h={10} color={useColorModeValue("gray.600", "gray.300")} />}
+          icon={<Icon as={FcAssistant} w={10} h={10} />}
           title={"Lifetime Support"}
           text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore..."}
         />
         <Feature
-          icon={<CheckIcon w={10} h={10} color={useColorModeValue("gray.600", "gray.300")} />}
+          icon={<Icon as={FcAssistant} w={10} h={10} />}
           title={"Unlimited Donations"}
           text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore..."}
         />
         <Feature
-          icon={<EmailIcon w={10} h={10} color={useColorModeValue("gray.600", "gray.300")} />}
+          icon={<Icon as={FcAssistant} w={10} h={10} />}
           title={"Instant Delivery"}
           text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore..."}
         />
@@ -69,7 +69,7 @@ export default function About() {
               size={'lg'}
               fontWeight={'normal'}
               px={6}
-              leftIcon={<PlayIcon h={4} w={4} color={useColorModeValue('gray.600', 'gray.300')} />}>
+              leftIcon={<Icon as={FcStart} h={4} w={4} color={useColorModeValue('gray.600', 'gray.300')} />}>
               How It Works
             </Button>
           </Stack>
@@ -80,7 +80,7 @@ export default function About() {
             aria-label={"Play Button"}
             variant={"ghost"}
             _hover={{ bg: "transparent" }}
-            icon={<PlayIcon w={12} h={12} />}
+            icon={<Icon as={FcStart} w={12} h={12} />}
             size={"lg"}
             color={"white"}
             position={"absolute"}
