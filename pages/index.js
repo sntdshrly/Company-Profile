@@ -1,6 +1,9 @@
 import Navbar from '../components/navbar';
 import Hero from '../components/hero';
 import About from '../components/about';
+import Partner from '../components/partner';
+import Portofolio from '../components/portofolio';
+import Footer from '../components/footer';
 
 function HomePage() {
   return (
@@ -8,6 +11,9 @@ function HomePage() {
       <Navbar />
       <Hero />
       <About />
+      <Partner />
+      <Portofolio />
+      <Footer />
     </>
   );
 }
