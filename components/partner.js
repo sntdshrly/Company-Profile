@@ -21,12 +21,13 @@ export default function Partner() {
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={20} textAlign={"center"}>
         OUR PARTNERS
       </Text>
-      <Box bgColor={useColorModeValue('gray.100', 'gray.600')} py={10} px={60}>
+      <Box bgColor={useColorModeValue('gray.100', 'gray.600')} py={10} px={80}>
         <Flickity options={flickityOptions}>
           <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/eiger.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/erajaya.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/loreal.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/sch.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://www.nicepng.com/png/full/28-283120_logos-of-different-brands.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
         </Flickity>
       </Box>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }} my={20} mx={{ base: 80, lg: 40, md: 20, sm:40 }}>
