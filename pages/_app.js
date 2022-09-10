@@ -1,7 +1,12 @@
 import {ChakraProvider, extendTheme} from '@chakra-ui/react';
 import '../styles/globals.css';
 
-const customTheme = extendTheme();
+const config = {
+  initialColorMode: 'system',
+  useSystemColorMode: true,
+}
+
+const customTheme = extendTheme({config});
 
 function MyApp({Component, pageProps}) {
   return (
