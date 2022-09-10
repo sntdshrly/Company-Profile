@@ -24,9 +24,8 @@ export default function Navbar() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Text textAlign={useBreakpointValue({ base: "center", md: "left" })} fontFamily={"heading"} color={useColorModeValue("gray.800", "white")}>
-            Logo
+          Logo
           </Text>
-
           <Flex display={{ base: "none", md: "flex" }} m={"auto"}>
             <DesktopNav />
           </Flex>
@@ -68,10 +67,10 @@ const DesktopNav = () => {
           HOME
         </Link>
         <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
-          PORTOFOLIO
+          PARTNERS
         </Link>
         <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
-          PARTNERS
+          PRODUCTS
         </Link>
       </Box>
     </Stack>

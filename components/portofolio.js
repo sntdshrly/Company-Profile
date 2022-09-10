@@ -37,18 +37,18 @@ export default function Portofolio() {
             <Image rounded={"lg"} height={230} width={282} objectFit={"cover"} src={IMAGE} />
           </Box>
           <Stack pt={10} align={"center"}>
-            <Text color={"gray.500"} fontSize={"sm"} textTransform={"uppercase"}>
-              Digilab
+            <Text color={"gray.500"} fontSize={"sm"}>
+              Professional Plus 2022
             </Text>
             <Heading fontSize={"2l"} fontFamily={"body"} fontWeight={500}>
               Digilab Enterprise Resource Planning
             </Heading>
             <Stack direction={"row"} align={"center"}>
-              <Text fontWeight={800} fontSize={"xl"}>
-                Linux
+              <Text fontWeight={800} fontSize={"xl"} color={"red"}>
+                Rp. 1.200.000
               </Text>
               <Text textDecoration={"line-through"} color={"gray.600"}>
-                Windows
+                Rp. 2.000.000
               </Text>
             </Stack>
           </Stack>
