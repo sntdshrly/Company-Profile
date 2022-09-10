@@ -44,7 +44,7 @@ export default function Navbar() {
               bg: "gray.500",
             }}
           >
-            CONTACT
+            DONATION
           </Button>
         </Stack>
       </Flex>
