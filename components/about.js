@@ -17,23 +17,23 @@ export default function About() {
   return (
     <Box p={4} my={10} mx={20}>
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={20} textAlign={"center"}>
-        Lorem ipsum dolor
+        OUR SERVICES
       </Text>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
         <Feature
           icon={<Icon as={FcAssistant} w={10} h={10} />}
-          title={"Lifetime Support"}
-          text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore..."}
+          title={"Website Development"}
+          text={"Website development is program that can be accessed and used via a web browser. Websites are created using HTML, Javascript, CSS, and other languages that are supported by various web browsers..."}
         />
         <Feature
           icon={<Icon as={FcAssistant} w={10} h={10} />}
-          title={"Unlimited Donations"}
-          text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore..."}
+          title={"UI/UX Design"}
+          text={"UI/UX design is made with the aim of allowing users to explore and navigate any content on a website or application. Good design lead our website or application to be mastered easily by the user..."}
         />
         <Feature
           icon={<Icon as={FcAssistant} w={10} h={10} />}
-          title={"Instant Delivery"}
-          text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore..."}
+          title={"Digital Marketing & SEO"}
+          text={"Search Engine Optimization is used to optimize a website's technical configuration, content relevance and link popularity so its pages can become more relevant and popular towards user search queries..."}
         />
       </SimpleGrid>
       <Stack
@@ -49,17 +49,15 @@ export default function About() {
             <Text
               as={'span'}
               position={'relative'}>
-              Write once,
+              OUR AGILE
             </Text>
             <br />
             <Text as={'span'} color={useColorModeValue('gray.600', 'gray.300')}>
-              use everywhere!
+              METHODOLOGY
             </Text>
           </Heading>
           <Text color={useColorModeValue('gray.600', 'gray.500')}>
-            Snippy is a rich coding snippets app that lets you create your own
-            code snippets, categorize them, and even sync them in the cloud so
-            you can use them anywhere. All that is free!
+          We are adopting agile methodologies to help increase team performance, improve customer satisfaction and increase project versatility.
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
@@ -70,7 +68,7 @@ export default function About() {
               fontWeight={'normal'}
               px={6}
               leftIcon={<Icon as={FcStart} h={4} w={4} color={useColorModeValue('gray.600', 'gray.300')} />}>
-              How It Works
+              How It Works?
             </Button>
           </Stack>
         </Stack>

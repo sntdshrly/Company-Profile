@@ -6,7 +6,7 @@ export default function Portofolio() {
   return (
     <Box mt={20}>
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={10} textAlign={"center"}>
-        Lorem ipsum dolor
+        OUR PRODUCTS
       </Text>
 
       <Center py={12}>

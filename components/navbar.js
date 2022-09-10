@@ -45,7 +45,7 @@ export default function Navbar() {
               bg: "gray.500",
             }}
           >
-            Contact
+            CONTACT
           </Button>
         </Stack>
       </Flex>
@@ -65,13 +65,13 @@ const DesktopNav = () => {
     <Stack direction={"row"} spacing={4}>
       <Box>
         <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
-          About
+          HOME
         </Link>
         <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
-          Partners
+          PORTOFOLIO
         </Link>
         <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
-          Portofolio
+          PARTNERS
         </Link>
       </Box>
     </Stack>

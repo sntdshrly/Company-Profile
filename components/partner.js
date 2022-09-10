@@ -19,7 +19,7 @@ export default function Partner() {
   return (
     <Box my={10}>
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={20} textAlign={"center"}>
-        Lorem ipsum dolor
+        OUR PARTNERS
       </Text>
       <Box bgColor={useColorModeValue('gray.100', 'gray.600')} py={10} px={40}>
         <Flickity options={flickityOptions}>
@@ -30,15 +30,13 @@ export default function Partner() {
         </Flickity>
       </Box>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }} my={20} mx={{ base: 80, lg: 40, md: 20, sm:40 }}>
-        <StatsCard title={"Users"} stat={"5,000"} icon={<BsPerson size={"3em"} />} />
-        <StatsCard title={"Servers"} stat={"1,000"} icon={<FiServer size={"3em"} />} />
-        <StatsCard title={"Datacenters"} stat={"7"} icon={<GoLocation size={"3em"} />} />
+        <StatsCard title={"USERS"} stat={"5,000"} icon={<BsPerson size={"3em"} />} />
+        <StatsCard title={"SERVERS"} stat={"1,000"} icon={<FiServer size={"3em"} />} />
+        <StatsCard title={"DATACENTERS"} stat={"7"} icon={<GoLocation size={"3em"} />} />
       </SimpleGrid>
       <Text color={useColorModeValue("gray.800", "white")} textAlign={"center"} mx={{ base: 80, lg: 40, md: 20, sm:40 }}>
-      We had an incredible experience working with Chakra Templates and were
-        impressed they made such a big difference in only three weeks. Our team
-        is so grateful for the wonderful improvements they made and their
-        ability to get familiar with the product concept so quickly.
+      Only by working together with partners can we ride the digital wave.
+      Our partners include governments, civil society organisations, faith communities, faith-based organisations, businesses, academia, and more.
       </Text>
     </Box>
   );
