@@ -17,7 +17,7 @@ const flickityOptions = {
 
 export default function Partner() {
   return (
-    <Box my={10}>
+    <Box my={10} id="partners">
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={20} textAlign={"center"}>
         OUR PARTNERS
       </Text>

@@ -65,10 +65,13 @@ const DesktopNav = () => {
         <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
           HOME
         </Link>
-        <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
+        <Link p={2} href={"#services"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
+          SERVICES
+        </Link>
+        <Link p={2} href={"#partners"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
           PARTNERS
         </Link>
-        <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
+        <Link p={2} href={"#products"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
           PRODUCTS
         </Link>
       </Box>
@@ -79,19 +82,19 @@ const DesktopNav = () => {
 const MobileNav = () => {
   return (
     <Stack bg={useColorModeValue("white", "gray.800")} p={4} display={{ md: "none" }}>
-      <Flex py={2} as={Link} href={"#"} justify={"space-between"} align={"center"} _hover={{ textDecoration: "none" }}>
+      <Flex py={2} as={Link} href={"#services"} justify={"space-between"} align={"center"} _hover={{ textDecoration: "none" }}>
         <Text fontWeight={600} color={useColorModeValue("gray.600", "gray.200")}>
-          About
+          SERVICES
         </Text>
       </Flex>
-      <Flex py={2} as={Link} href={"#"} justify={"space-between"} align={"center"} _hover={{ textDecoration: "none" }}>
+      <Flex py={2} as={Link} href={"#partners"} justify={"space-between"} align={"center"} _hover={{ textDecoration: "none" }}>
         <Text fontWeight={600} color={useColorModeValue("gray.600", "gray.200")}>
-          Partners
+          PARTNERS
         </Text>
       </Flex>
-      <Flex py={2} as={Link} href={"#"} justify={"space-between"} align={"center"} _hover={{ textDecoration: "none" }}>
+      <Flex py={2} as={Link} href={"#products"} justify={"space-between"} align={"center"} _hover={{ textDecoration: "none" }}>
         <Text fontWeight={600} color={useColorModeValue("gray.600", "gray.200")}>
-          Portofolio
+          PRODUCTS
         </Text>
       </Flex>
     </Stack>

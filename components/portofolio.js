@@ -4,7 +4,7 @@ const IMAGE = "https://goodmockups.com/wp-content/uploads/2020/05/Free-Product-S
 
 export default function Portofolio() {
   return (
-    <Box mt={20}>
+    <Box mt={20} id="products">
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={10} textAlign={"center"}>
         OUR PRODUCTS
       </Text>

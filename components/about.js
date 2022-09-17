@@ -15,7 +15,7 @@ const Feature = ({ title, text, icon }) => {
 
 export default function About() {
   return (
-    <Box p={4} my={10} mx={20}>
+    <Box id="services" p={4} my={10} mx={20}>
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={20} textAlign={"center"}>
         OUR SERVICES
       </Text>
