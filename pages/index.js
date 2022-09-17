@@ -4,6 +4,7 @@ import About from '../components/about';
 import Partner from '../components/partner';
 import Portofolio from '../components/portofolio';
 import Footer from '../components/footer';
+import Donation from '../components/donation';
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <About />
       <Partner />
       <Portofolio />
+      <Donation />
       <Footer />
     </>
   );
