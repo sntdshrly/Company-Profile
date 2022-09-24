@@ -23,7 +23,7 @@ export default function Donation() {
               pos: "absolute",
               top: 5,
               left: 0,
-              backgroundImage: `url(${"https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ"})`,
+              backgroundImage: `url(${"https://images.unsplash.com/flagged/photo-1555251255-e9a095d6eb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"})`,
               filter: "blur(15px)",
               zIndex: -1,
             }}
@@ -33,7 +33,7 @@ export default function Donation() {
               },
             }}
           >
-            <Image rounded={"lg"} height={230} width={282} objectFit={"cover"} src={"https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ"} />
+            <Image rounded={"lg"} height={230} width={282} objectFit={"cover"} src={"https://images.unsplash.com/flagged/photo-1555251255-e9a095d6eb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"} />
           </Box>
           <Stack mt={12}>
             <Tooltip hasArrow label="Lorem ipsum" placement="auto">
@@ -53,7 +53,7 @@ export default function Donation() {
             </Tooltip>
           </Stack>
           <Text textAlign={"center"} color={useColorModeValue("gray.700", "gray.400")} px={3} mt={"4"}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dicta facere adipisci ipsam
+          Your donation provides kids in Ethiopia with an adequate learning environment at school. 61 million people in Ethiopia lack access to clean water.
           </Text>
         </Box>
       </Center>
