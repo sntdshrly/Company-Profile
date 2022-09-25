@@ -24,7 +24,7 @@ export default function Navbar() {
           <IconButton onClick={onToggle} icon={isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />} variant={"ghost"} aria-label={"Toggle Navigation"} />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-        <Image width="120px" src='https://i.ibb.co/yykQjX3/DIGILAB-removebg-preview.png' alt='Logo' />
+        <Image width="120px" src='https://i.ibb.co/H2n3KjK/9ca23f097d6b46e49e3296f916e8a5f6-1-dasd-removebg-preview.png' alt='Logo' />
           <Flex display={{ base: "none", md: "flex" }} m={"auto"}>
             <DesktopNav />
           </Flex>
