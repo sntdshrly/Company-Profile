@@ -23,10 +23,10 @@ export default function Partner() {
       </Text>
       <Box bgColor={useColorModeValue('gray.100', 'gray.600')} py={10} px={80}>
         <Flickity options={flickityOptions}>
-          <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/eiger.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
-          <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/erajaya.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
-          <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/loreal.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
-          <Image h={'100'} src={"https://wit.id/wp-content/uploads/2021/04/sch.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://www.nicepng.com/png/detail/52-522223_play-burger-king-png-logo-round-brand-logo.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://www.nicepng.com/png/detail/156-1569339_duck-tape-logo-duck-brand-logo.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://www.nicepng.com/png/detail/277-2779569_adidas-en-oaxaca-de-jurez-oaxaca-adidas-design.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://www.nicepng.com/png/detail/984-9841299_atticus-bird-blink182-poppunk-logo-freetoedit-clothing-brand.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://www.nicepng.com/png/full/28-283120_logos-of-different-brands.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
         </Flickity>
       </Box>
