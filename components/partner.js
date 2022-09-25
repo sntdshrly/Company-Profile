@@ -28,6 +28,7 @@ export default function Partner() {
           <Image h={'100'} src={"https://www.nicepng.com/png/detail/277-2779569_adidas-en-oaxaca-de-jurez-oaxaca-adidas-design.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://www.nicepng.com/png/detail/984-9841299_atticus-bird-blink182-poppunk-logo-freetoedit-clothing-brand.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://www.nicepng.com/png/full/28-283120_logos-of-different-brands.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://www.nicepng.com/png/detail/209-2097329_png-transparent-library-marks-india-as-its-key.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
         </Flickity>
       </Box>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }} my={20} mx={{ base: 80, lg: 40, md: 20, sm:40 }}>
