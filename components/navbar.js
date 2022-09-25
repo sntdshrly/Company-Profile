@@ -32,19 +32,20 @@ export default function Navbar() {
 
         <Stack flex={{ base: 1, md: 0 }} justify={"flex-end"} direction={"row"} spacing={6}>
           <Button onClick={toggleColorMode}>{colorMode === "light" ? <MoonIcon /> : <SunIcon />}</Button>
+          <Link href='#donation'>
           <Button
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
             fontWeight={600}
             color={useColorModeValue("white", "black")}
             bg={useColorModeValue("gray.600","gray.200")}
-            href={"#donation"}
             _hover={{
               bg: "gray.500",
             }}
           >
             DONATION
           </Button>
+          </Link>
         </Stack>
       </Flex>
 

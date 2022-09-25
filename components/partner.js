@@ -23,12 +23,12 @@ export default function Partner() {
       </Text>
       <Box bgColor={useColorModeValue('gray.100', 'gray.600')} py={10} px={80}>
         <Flickity options={flickityOptions}>
-          <Image h={'100'} src={"https://www.nicepng.com/png/detail/52-522223_play-burger-king-png-logo-round-brand-logo.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
-          <Image h={'100'} src={"https://www.nicepng.com/png/detail/156-1569339_duck-tape-logo-duck-brand-logo.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
-          <Image h={'100'} src={"https://www.nicepng.com/png/detail/277-2779569_adidas-en-oaxaca-de-jurez-oaxaca-adidas-design.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
-          <Image h={'100'} src={"https://www.nicepng.com/png/detail/984-9841299_atticus-bird-blink182-poppunk-logo-freetoedit-clothing-brand.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://i.ibb.co/kStzbXk/52-522223-play-burger-king-png-logo-round-brand-logo-removebg-preview.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://i.ibb.co/RvCfNLX/156-1569339-duck-tape-logo-duck-brand-logo-removebg-preview.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://i.ibb.co/sWxS19t/277-2779569-adidas-en-oaxaca-de-jurez-oaxaca-adidas-design-removebg-preview.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://i.ibb.co/bBBSSQ0/984-9841299-atticus-bird-blink182-poppunk-logo-freetoedit-clothing-brand-removebg-preview.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
           <Image h={'100'} src={"https://www.nicepng.com/png/full/28-283120_logos-of-different-brands.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
-          <Image h={'100'} src={"https://www.nicepng.com/png/detail/209-2097329_png-transparent-library-marks-india-as-its-key.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
+          <Image h={'100'} src={"https://i.ibb.co/x5Cp7qd/209-2097329-png-transparent-library-marks-india-as-its-key-removebg-preview.png"} opacity={"0.5"} _hover={{ opacity: "1" }} transition={'opacity 0.3s ease'}/>
         </Flickity>
       </Box>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }} my={20} mx={{ base: 80, lg: 40, md: 20, sm:40 }}>
