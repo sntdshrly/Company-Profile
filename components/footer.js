@@ -8,9 +8,15 @@ export default function Footer() {
         <Icon />
         <Text>© 2022 PT. DIGILAB INDONESIA. ALL RIGHTS RESERVED</Text>
         <Stack direction={"row"} spacing={2}>
+          <Link href='https://instagram.com' isExternal>
           <IconButton icon={<FaInstagram />}/>
+          </Link>
+          <Link href='https://twitter.com' isExternal>
           <IconButton icon={<FaTwitter />}/>
+          </Link>
+          <Link href='https://youtube.com' isExternal>
           <IconButton icon={<FaYoutube />}/>
+          </Link>
         </Stack>
       </Container>
     </Box>

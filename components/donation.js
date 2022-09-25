@@ -3,7 +3,7 @@ import ProgressBar from "./progress";
 
 export default function Donation() {
   return (
-    <Box mt={20} id="products">
+    <Box mt={20} id="donation">
       <Text color={useColorModeValue("gray.800", "white")} fontWeight={700} lineHeight={1.2} fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })} mb={10} textAlign={"center"}>
         OUR DONATIONS
       </Text>
@@ -36,24 +36,24 @@ export default function Donation() {
             <Image rounded={"lg"} height={230} width={282} objectFit={"cover"} src={"https://images.unsplash.com/flagged/photo-1555251255-e9a095d6eb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"} />
           </Box>
           <Stack mt={12}>
-            <Tooltip hasArrow label="Lorem ipsum" placement="auto">
+            {/* <Tooltip hasArrow label="Lorem ipsum" placement="auto">
               <ProgressBar>
                 <Progress colorScheme="gray" size="md" value={20} />
               </ProgressBar>
-            </Tooltip>
-            <Tooltip hasArrow label="Lorem ipsum" placement="auto">
+            </Tooltip> */}
+            <Tooltip hasArrow label="Collected $30.600 / $50.000" placement="auto">
               <ProgressBar>
-                <Progress colorScheme="gray" size="md" value={50} hasStripe isAnimated/>
+                <Progress colorScheme="green" size="lg" value={60} hasStripe isAnimated/>
               </ProgressBar>
             </Tooltip>
-            <Tooltip hasArrow label="Lorem ipsum" placement="auto">
+            {/* <Tooltip hasArrow label="Lorem ipsum" placement="auto">
               <ProgressBar>
                 <Progress colorScheme="gray" size="md" value={35} />
               </ProgressBar>
-            </Tooltip>
+            </Tooltip> */}
           </Stack>
           <Text textAlign={"center"} color={useColorModeValue("gray.700", "gray.400")} px={3} mt={"4"}>
-          Your donation provides kids in Ethiopia with an adequate learning environment at school. 61 million people in Ethiopia lack access to clean water.
+          61 million people in Ethiopia lack access to clean water and education. By purchasing our products it means you provides kids in Ethiopia with an adequate learning environment at school and save their life.
           </Text>
         </Box>
       </Center>

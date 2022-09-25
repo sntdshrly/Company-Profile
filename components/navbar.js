@@ -38,7 +38,7 @@ export default function Navbar() {
             fontWeight={600}
             color={useColorModeValue("white", "black")}
             bg={useColorModeValue("gray.600","gray.200")}
-            href={"#"}
+            href={"#donation"}
             _hover={{
               bg: "gray.500",
             }}

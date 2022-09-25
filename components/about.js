@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, Heading, Button, Image, IconButton, Text, Stack, Flex, useBreakpointValue, useColorModeValue, createIcon, Icon } from "@chakra-ui/react";
+import { Box, SimpleGrid, Heading, Button, Image, IconButton, Text, Stack, Flex, useBreakpointValue, useColorModeValue, createIcon, Icon, Link } from "@chakra-ui/react";
 import { FcGlobe, FcStart, FcLandscape, FcComboChart } from 'react-icons/fc';
 
 const Feature = ({ title, text, icon }) => {
@@ -62,6 +62,8 @@ export default function About() {
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: 'column', sm: 'row' }}>
+              
+          <Link href='https://www.youtube.com/watch?v=Z9QbYZh1YXY' isExternal>
             <Button
               rounded={'full'}
               size={'lg'}
@@ -70,6 +72,7 @@ export default function About() {
               leftIcon={<Icon as={FcStart} h={4} w={4} color={useColorModeValue('gray.600', 'gray.300')} />}>
               HOW IT WORKS?
             </Button>
+          </Link>
           </Stack>
         </Stack>
         <Flex flex={1} justify={"center"} align={"center"} position={"relative"} w={"full"} my={20}>
