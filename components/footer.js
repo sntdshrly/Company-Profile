@@ -14,7 +14,7 @@ export default function Footer() {
           <Link href='https://twitter.com/ptdigilabidn' isExternal>
           <IconButton icon={<FaTwitter />}/>
           </Link>
-          <Link href='https://www.youtube.com/channel/UC42NdSxbS42SyAJIfTxOUiws' isExternal>
+          <Link href='https://www.youtube.com/channel/UC42NdSxbS42SyAJIfTxOUiw/featured' isExternal>
           <IconButton icon={<FaYoutube />}/>
           </Link>
         </Stack>
