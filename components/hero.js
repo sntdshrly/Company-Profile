@@ -22,9 +22,11 @@ export default function Hero() {
                 ABOUT US
               </Button>
             </Link>
+            <Link href='https://www.youtube.com/watch?v=_Xws5LKlXJM' isExternal>
             <Button bg={"green"} rounded={"full"} color={"white"} _hover={{ bg: "green.800" }}>
               GET STARTED
             </Button>
+            </Link>
           </Stack>
         </Stack>
       </VStack>
