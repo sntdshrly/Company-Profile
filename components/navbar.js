@@ -63,7 +63,7 @@ const DesktopNav = () => {
   return (
     <Stack direction={"row"} spacing={4}>
       <Box>
-        <Link p={2} href={"#"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
+        <Link p={2} href={"/"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
           HOME
         </Link>
         <Link p={2} href={"#services"} fontSize={"sm"} fontWeight={500} color={linkColor} _hover={{ textDecoration: "none", color: linkHoverColor }}>
