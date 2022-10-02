@@ -20,18 +20,15 @@ export default function SplitWithImage() {
       <Container maxW={"5xl"} py={12}>
       <Heading
             lineHeight={1.1}
-            fontWeight={600}
+            fontWeight={400}
             textAlign={'center'}
             mb={'20'}
-            fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
+            fontSize={{ base: '3xl', sm: '4xl', lg: '5xl' }}>
             <Text
               as={'span'}
               position={'relative'}
               textAlign={'center'}>
-              ABOUT
-            </Text>
-            <Text as={'span'} color={useColorModeValue('gray.600', 'gray.300')}>
-              US
+              About Us
             </Text>
           </Heading>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
@@ -39,9 +36,9 @@ export default function SplitWithImage() {
             <Text textTransform={"uppercase"} color={"blue.400"} fontWeight={600} fontSize={"sm"} bg={useColorModeValue("blue.50", "blue.900")} p={2} alignSelf={"flex-start"} rounded={"md"}>
               Our Story
             </Text>
-            <Heading>Lorem ipsum dolor sit amet</Heading>
-            <Text color={"gray.500"} fontSize={"lg"}>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            <Heading>What We Do?</Heading>
+            <Text textAlign={'justify'} color={"gray.500"} fontSize={"lg"}>
+            We focus on high quality and timely delivery of our Services. We provide cost effective and customized solutions.We believe nothing is impossible and sky is the limit. So we keep on working in a smart way and always thrive to improve ourselves. We think that internet is a place which have potential to become more beautiful and dynamic like never before. So to make it possible we are constantly working on web designing and development.We pride ourselves to be one of the leading IT providers and fastes growing IT companies.
             </Text>
           </Stack>
           <Flex>
